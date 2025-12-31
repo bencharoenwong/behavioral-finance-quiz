@@ -1,0 +1,512 @@
+Content is user-generated and unverified.
+{
+  "quizId": "behavioral-finance-quiz",
+  "title": "Behavioral Finance Quiz",
+  "description": "Test your understanding of behavioral finance concepts and biases in investment decision-making",
+  "modules": [
+    {
+      "moduleId": "module-1",
+      "title": "Cognitive Biases",
+      "description": "This module explores how fundamental cognitive biases impact your investment decision-making, especially regarding gains, losses, and prior commitments. Understanding these automatic thought patterns can help investors make more rational choices when facing financial risks and emotionally challenging situations.",
+      "questions": [
+        {
+          "id": "q1-1",
+          "text": "Scenario 1: Michael has two investment options:\nInvestment A: 50% chance to gain $1,500, 50% chance to gain nothing\nInvestment B: 100% chance to gain $700\nQuestion: Which would Michael likely choose?\n\nScenario 2: Now Michael faces two different options:\nInvestment C: 50% chance to lose $1,500, 50% chance to lose nothing\nInvestment D: 100% chance to lose $700\nQuestion: Which would Michael likely choose now?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Investment A and Investment C"},
+            {"id": "b", "text": "Investment A and Investment D"},
+            {"id": "c", "text": "Investment B and Investment C"},
+            {"id": "d", "text": "Investment B and Investment D"}
+          ],
+          "correctAnswer": "d",
+          "points": 15,
+          "concepts": ["loss-aversion"],
+          "feedbackCorrect": "The mathematically sound investor maintains consistent risk preferences regardless of whether facing gains or losses. Both scenarios have identical expected values. Michael should consider whether he's a risk-taker or risk-avoider overall, and apply that approach consistently to both gains and losses.",
+          "feedbackIncorrect": "Research in behavioral finance has identified a common pattern called loss aversion, where many investors prefer certainty when gaining but take risks to avoid losses. This natural tendency often leads to portfolio behaviors like selling winners too early while holding losing investments too long, which can impact long-term returns."
+        },
+        {
+          "id": "q1-2",
+          "text": "Sarah invested $5,000 in a quantum computing ETF that's now worth $3,000 (-40%). She could:",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Hold until it returns to her purchase price"},
+            {"id": "b", "text": "Sell now and invest in a trending AI robotics ETF"},
+            {"id": "c", "text": "Sell 50% and keep 50%"},
+            {"id": "d", "text": "Invest more to lower her average purchase price"}
+          ],
+          "correctAnswer": ["b", "c", "d"],
+          "points": 15,
+          "concepts": ["sunk-cost-fallacy"],
+          "feedbackCorrect": "Sarah should evaluate each investment as if she were buying it today with fresh money. She should ask herself: 'If I had cash instead of this investment today, would I buy it at its current price?' If not, selling and reallocating to better opportunities is likely wiser. Her original purchase price is irrelevant to future performance.",
+          "feedbackIncorrect": "Holding investments until they reach their original purchase price reflects a common cognitive pattern that financial researchers call the sunk cost fallacy. Studies show many investors naturally feel reluctance to sell at a loss, often becoming anchored to their initial purchase price. Professional portfolio managers typically focus on future prospects rather than historical purchase prices when making holding decisions."
+        },
+        {
+          "id": "q1-3",
+          "text": "Last year, you chose a stable fund that returned 7% instead of a tech fund that returned 25%. Now you have another $10,000 to invest.\n\nWhat would most strongly influence your current investment decision?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "You would invest in the tech fund now to make up for missed gains"},
+            {"id": "b", "text": "You would stick with stable funds to avoid making a mistake"},
+            {"id": "c", "text": "You would research both funds' current prospects and valuations"},
+            {"id": "d", "text": "You would avoid both funds and look for a completely different investment"}
+          ],
+          "correctAnswer": ["b", "c", "d"],
+          "points": 15,
+          "concepts": ["regret-aversion"],
+          "feedbackCorrect": "Investment decisions are most effective when forward-looking. The optimal approach would research both funds' current valuations and future prospects while giving minimal weight to past regrets or missed opportunities. Past performance doesn't predict future returns, and different market environments favor different types of investments. Your current investment should be based on thorough analysis of present market conditions, valuations, and your financial goals—not attempts to avoid feelings of regret about previous decisions.",
+          "feedbackIncorrect": "Choosing investments primarily to make up for missed gains reflects what behavioral finance researchers call regret aversion - a common tendency where emotions about past decisions can influence current choices. This natural pattern has been widely documented in investment behavior. Financial professionals typically recommend separating past outcomes from current decisions, focusing instead on forward-looking analysis of available options."
+        },
+        {
+          "id": "q1-4",
+          "text": "Robert's company gave him stock as a bonus five years ago. This stock has underperformed the market by 15% since then, but he's held onto all of it.\n\nWhy is Robert most likely keeping this stock?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "He feels loyal to his company and wants to show his support"},
+            {"id": "b", "text": "He believes the stock is currently undervalued based on his analysis of the company's financials"},
+            {"id": "c", "text": "He hasn't thought much about selling it since he got it for free"},
+            {"id": "d", "text": "He's analyzed his portfolio and determined this stock still fits his diversification strategy despite recent performance"}
+          ],
+          "correctAnswer": ["b", "d"],
+          "points": 15,
+          "concepts": ["endowment-bias"],
+          "feedbackCorrect": "The optimal approach evaluates company stock objectively based on financial analysis and portfolio strategy. Robert conducting his own valuation analysis or regularly reviewing how the stock fits within his overall diversification plan demonstrates rational decision-making focused on investment merit rather than emotional attachment. Good investors consistently apply the same evaluation standards to all holdings regardless of how they were acquired.",
+          "feedbackIncorrect": "Maintaining investments primarily due to company loyalty or because they were received as gifts reflects what researchers call endowment bias - a well-documented tendency where people often place higher value on things simply because they own them. This natural pattern frequently leads investors to maintain concentrated positions in familiar companies without active evaluation. Financial advisors typically recommend periodically reviewing all holdings using the same objective criteria, regardless of their source."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-2",
+      "title": "Information Processing Biases",
+      "description": "This module examines how investors interpret, filter, and react to financial information, often in ways that reinforce existing beliefs. Recognizing these information processing patterns can help you develop a more balanced approach to evaluating investment data and market news.",
+      "questions": [
+        {
+          "id": "q2-1",
+          "text": "Emma bought a tech stock at $80 that's now at $65. After seeing the price drop, which of these actions would she MOST likely take?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Seek analyst reports and articles highlighting the company's future potential"},
+            {"id": "b", "text": "Review both positive analyst reports and negative earnings data to reassess the company"},
+            {"id": "c", "text": "Focus on messages in investment forums from others who are still bullish on the stock"},
+            {"id": "d", "text": "Examine why her original investment thesis might have been incorrect or incomplete"}
+          ],
+          "correctAnswer": ["b", "d"],
+          "points": 15,
+          "concepts": ["confirmation-bias"],
+          "feedbackCorrect": "The optimal approach is to review balanced information from multiple sources or actively examine potential flaws in the original thesis. Professional investors regularly challenge their own assumptions by asking 'What would make me change my mind about this investment?' When a stock drops significantly, they investigate both bull and bear arguments with equal attention, ensuring decisions are based on comprehensive analysis rather than selective information.",
+          "feedbackIncorrect": "Seeking primarily positive information after an investment declines reflects a common cognitive pattern that behavioral researchers call confirmation bias. Studies show that many investors naturally search for information that supports their existing views while paying less attention to contradictory evidence. This widely documented tendency can make it more challenging to adjust investment strategies when market conditions or company fundamentals change. Professional analysts often deliberately seek opposing viewpoints to strengthen their analysis."
+        },
+        {
+          "id": "q2-2",
+          "text": "You're considering an investment opportunity. Two financial advisors present the same data in different ways:\n\nAdvisor A says: 'This investment strategy has beaten the market in 65% of 3-year periods.'\n\nAdvisor B says: 'This investment strategy has underperformed the market in 35% of 3-year periods.'\n\nWhich presentation would make you more interested in the investment?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Advisor A's description makes me much more interested"},
+            {"id": "b", "text": "Advisor B's description gives me a better understanding of the risks"},
+            {"id": "c", "text": "Both descriptions affect me equally"}
+          ],
+          "correctAnswer": "c",
+          "points": 10,
+          "concepts": ["framing-bias"],
+          "feedbackCorrect": "This approach recognizes that both statements mathematically contain identical information (65% success = 35% failure). Effective investors develop the habit of examining both positive and negative frames when evaluating opportunities. Considering both success rates and failure rates, returns and potential drawdowns, helps form a more complete picture. This balanced perspective often leads to more consistent decisions based on substance rather than presentation style.",
+          "feedbackIncorrect": "This response illustrates how framing bias can influence investment decisions. Research shows that many investors respond differently to the same information depending on whether it's presented positively (success rates) or negatively (failure rates). Being aware of how presentation affects our judgment can help us focus more on the underlying facts when making investment decisions."
+        },
+        {
+          "id": "q2-3",
+          "text": "Looking back to January 2022, three options were available:\n\nTechnology growth stocks (had returned 25%+ annually in 2020-2021)\n\nEnergy sector stocks (had underperformed for several years)\n\nTreasury bonds and dividend stocks\n\nBy December 2022, tech stocks declined 30%, energy gained 40%, and bonds/dividend stocks lost 5%.\n\nHow predictable do you think these results were?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "80% - 100%"},
+            {"id": "b", "text": "50%-79%"},
+            {"id": "c", "text": "20%-49%"},
+            {"id": "d", "text": "0%-19%"}
+          ],
+          "correctAnswer": ["c", "d"],
+          "points": 15,
+          "concepts": ["hindsight-bias"],
+          "feedbackCorrect": "This perspective aligns with market reality. Historical data shows that even professional analysts rarely predict major sector rotations with consistency. Many successful long-term investors focus less on market timing and more on maintaining diversification across different asset classes that respond differently to various economic conditions.",
+          "feedbackIncorrect": "Market events often appear more predictable in retrospect than they actually were at the time. Research in behavioral finance shows that knowing outcomes can unconsciously influence how we view past uncertainty. This common cognitive pattern can sometimes lead investors to develop overconfidence in their ability to forecast future market movements."
+        },
+        {
+          "id": "q2-4",
+          "text": "David's investment performance vs. market index:\n\nYear 1: David +15%, Market +12%\n\nYear 2: David +8%, Market +22%\n\nYear 3: David +18%, Market +9%\n\nHow would David likely explain these results?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "When he outperformed, it was due to his skill; when he underperformed, it was bad market conditions"},
+            {"id": "b", "text": "His strategy seems to work better in certain market environments than others"},
+            {"id": "c", "text": "Both good and bad results were likely influenced by his decisions and market factors"},
+            {"id": "d", "text": "He needs more data to determine whether his performance is due to skill or market conditions"}
+          ],
+          "correctAnswer": ["b", "c", "d"],
+          "points": 15,
+          "concepts": ["self-attribution-bias"],
+          "feedbackCorrect": "A balanced approach recognizes that both David's decisions and market conditions impact all outcomes. Understanding that his strategy may work better in certain environments, acknowledging the mix of skill and luck, and requiring more data before drawing conclusions all represent more rational, unbiased thinking.",
+          "feedbackIncorrect": "When David attributes outperformance to his skill while blaming underperformance on market conditions, he's demonstrating what behavioral finance calls self-attribution bias. This common pattern can make it more difficult to learn from investment mistakes and may lead to overconfidence in future decisions. Recognizing this tendency is an important step toward more balanced investment analysis."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-3",
+      "title": "Prediction and Trend Biases",
+      "description": "This module investigates how investors attempt to forecast market movements and respond to emerging trends, frequently with unrealistic confidence. Learning to identify these predictive tendencies helps investors maintain perspective when markets exhibit dramatic short-term movements.",
+      "questions": [
+        {
+          "id": "q3-1",
+          "text": "Stock market returns:\n\n20X3: +18%\n\n20X4: +22%\n\nCurrent year 20X5: +15% so far\n\nWhat do you expect for market returns next year (20X6)?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "15-25% (similar to recent years)"},
+            {"id": "b", "text": "8-12% (long-term average)"},
+            {"id": "c", "text": "0-5% (below average)"},
+            {"id": "d", "text": "-5% to -15% (market correction)"},
+            {"id": "e", "text": "You have no specific expectation as market returns are unpredictable"}
+          ],
+          "correctAnswer": ["b", "c", "d", "e"],
+          "points": 20,
+          "concepts": ["recency-bias"],
+          "feedbackCorrect": "The most rational responses acknowledge the long-term historical average of market returns, demonstrate an understanding that markets tend to revert to the mean over time, show awareness that markets are cyclical, and recognize market unpredictability in the short term. Investment decisions based on realistic expectations tend to produce better long-term results than those based on recent performance. The best investors prepare for multiple scenarios rather than betting on the continuation of recent trends.",
+          "feedbackIncorrect": "Selecting '15-25%' suggests a pattern of recency bias, where recent performance is given more weight in forecasting. This is a common cognitive tendency among investors. Research shows that after several strong years, many people naturally develop expectations based on recent patterns, which can sometimes lead to taking on more risk than intended."
+        },
+        {
+          "id": "q3-2",
+          "text": "Jennifer is asked to estimate the S&P 500's value one year from now (currently at 5,000). Which range is she likely to be 90% confident will contain the index value?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "4,999 - 5,001 (±0.02%)"},
+            {"id": "b", "text": "4,500 - 5,500 (±10%)"},
+            {"id": "c", "text": "3,500 - 6,500 (±30%)"},
+            {"id": "d", "text": "4,000 - 6,000 (±20%)"}
+          ],
+          "correctAnswer": ["c", "d"],
+          "points": 15,
+          "concepts": ["overconfidence-bias"],
+          "feedbackCorrect": "Jennifer selected an appropriately calibrated range. Historical data shows that a ±20% range more realistically captures market uncertainty over a one-year period. This balanced perspective helps her make better risk-management decisions and creates more realistic expectations about market volatility.",
+          "feedbackIncorrect": "If Jennifer chose a narrow range (like ±0.02% or ±10%), this reflects a common tendency to underestimate market uncertainty that researchers have documented extensively. Historical data shows markets frequently move more than ±10% in a year. Understanding typical market volatility helps investors set more realistic expectations and often leads to improved diversification strategies."
+        },
+        {
+          "id": "q3-3",
+          "text": "A cryptocurrency has risen 350% in the past three months. Everyone's talking about it. Carlos didn't invest earlier.\n\nWhich of these best describes his likely response?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "He would invest a significant amount immediately to avoid missing further gains"},
+            {"id": "b", "text": "He would research the cryptocurrency thoroughly first, then decide whether to invest a moderate amount"},
+            {"id": "c", "text": "He would invest a small test amount now while continuing to research"}
+          ],
+          "correctAnswer": ["b", "c"],
+          "points": 15,
+          "concepts": ["herd-mentality", "fomo"],
+          "feedbackCorrect": "Carlos' measured approach shows resistance to FOMO. By prioritizing understanding before investing, he's less likely to chase performance and more likely to make rational decisions based on value rather than social pressure.",
+          "feedbackIncorrect": "Investing a significant amount immediately after dramatic price increases often reflects what behavioral finance calls FOMO (Fear Of Missing Out). Research shows that investments made primarily due to recent dramatic price movements rather than fundamental analysis have historically tended to occur closer to market peaks. Many experienced investors develop strategies to evaluate assets based on intrinsic value rather than recent performance."
+        },
+        {
+          "id": "q3-4",
+          "text": "You just read an article about a sudden 15% drop in several technology stocks due to disappointing earnings reports.\n\nOn a scale of 1-5, how likely do you think it is that technology stocks overall will drop significantly in the next month?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Extremely Unlikely"},
+            {"id": "b", "text": "Unlikely"},
+            {"id": "c", "text": "Neutral"},
+            {"id": "d", "text": "Likely"},
+            {"id": "e", "text": "Extremely Likely"}
+          ],
+          "correctAnswer": ["a", "b", "c"],
+          "points": 15,
+          "concepts": ["availability-bias"],
+          "feedbackCorrect": "Your moderate rating shows resistance to availability bias. You recognize that while specific companies faced challenges, individual news stories don't necessarily predict short-term sector performance. This balanced perspective helps maintain consistent investment strategies despite news volatility.",
+          "feedbackIncorrect": "A rating of 'Likely' or 'Extremely Likely' often reflects the influence of recent, vivid information on risk assessment - a pattern that behavioral economists call availability bias. Research shows that dramatic news stories can make similar future events seem more probable in our minds, even when statistical probabilities haven't significantly changed. Being aware of this common pattern helps many investors maintain focus on longer-term fundamentals rather than reacting to headlines."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-4",
+      "title": "Money Management Biases",
+      "description": "This module explores how psychological factors influence the way investors categorize, value, and manage their financial resources. Understanding these mental accounting patterns can lead to more consistent treatment of investment assets regardless of their source or current status.",
+      "questions": [
+        {
+          "id": "q4-1",
+          "text": "Maria receives $5,000 from an unexpected lottery winnings. Which option BEST describes her likely approach?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Invest it following her standard investment allocation, just like she does with her monthly savings"},
+            {"id": "b", "text": "Pay down her highest-interest debt first, since that offers the best financial return"},
+            {"id": "c", "text": "Use it for a vacation or luxury purchase since it's 'extra money' she wasn't expecting"},
+            {"id": "d", "text": "Set it aside in her emergency fund to increase her financial security"}
+          ],
+          "correctAnswer": ["a", "b", "d"],
+          "points": 15,
+          "concepts": ["mental-accounting"],
+          "feedbackCorrect": "Maria is approaching this windfall objectively, allocating it based on her overall financial priorities rather than treating it as separate from her regular money. This consistent approach typically leads to better long-term financial outcomes by focusing on what delivers the most value, regardless of the money's source.",
+          "feedbackIncorrect": "Using unexpected money for luxury purchases illustrates what financial researchers call mental accounting - a common tendency to categorize money differently based on its source. Studies show many people naturally treat windfall gains as separate from regular income, often allowing more flexible spending rules for 'extra' money. Financial experts typically recommend evaluating all available funds based on the same criteria, regardless of how they were acquired."
+        },
+        {
+          "id": "q4-2",
+          "text": "Scenario: A stock you're tracking:\n\nAll-time high: $85 (2 years ago)\n\nRecent low: $32 (3 months ago)\n\nCurrent price: $48\n\nAnalysts' target: $55\n\nWhat price would you consider a good entry point?",
+          "type": "range",
+          "options": [
+            {"id": "a", "text": "$48-$55", "description": "Current price or higher"}
+          ],
+          "correctAnswer": "a",
+          "points": 10,
+          "concepts": ["anchoring-bias"],
+          "feedbackCorrect": "The best approach is to evaluate if the current price ($48) represents good value based on the company's fundamentals and future prospects, not based on past price points.",
+          "feedbackIncorrect": "Research in behavioral finance has found that investors often use historical prices as reference points when making entry decisions. However, these past prices generally don't determine current value. Professional analysts typically focus on fundamentals like earnings, growth prospects, and competitive position rather than previous highs or lows. When price targets are heavily influenced by recent lows or previous highs, this often reflects what researchers call anchoring - a common cognitive pattern where decisions are pulled toward initial reference points."
+        },
+        {
+          "id": "q4-3",
+          "text": "Alex's retirement account has grown 15% this year. The market is at an all-time high. He's considering:",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Keeping all funds invested to maintain his long-term strategy"},
+            {"id": "b", "text": "Withdrawing some profits now to buy something he's wanted for a while"},
+            {"id": "c", "text": "Rebalancing his portfolio according to his target allocation"}
+          ],
+          "correctAnswer": ["a", "c"],
+          "points": 15,
+          "concepts": ["self-control-bias"],
+          "feedbackCorrect": "Alex is maintaining investment discipline by avoiding the temptation to spend market gains. Consistent long-term investing, regardless of market conditions, typically yields better results than taking money out during upswings. This approach acknowledges that market timing is difficult and emotional decisions often reduce returns.",
+          "feedbackIncorrect": "Withdrawing investment gains for personal purchases during market highs is a common tendency that financial researchers identify as a self-control challenge. Studies show that many investors naturally feel that market gains represent 'free money' that can be spent. However, investment performance data demonstrates that maintaining the compounding effect through market cycles often leads to significantly better long-term results. Professional investors typically establish withdrawal rules that operate independently of market conditions."
+        }
+      ]
+    },
+    {
+      "moduleId": "module-5",
+      "title": "Portfolio Management Biases",
+      "description": "This module focuses on how psychological factors affect broader investment strategy decisions, diversification approaches, and portfolio adjustments. Recognizing these management biases helps investors build more effectively diversified portfolios and make more disciplined adjustment decisions over time.",
+      "questions": [
+        {
+          "id": "q5-1",
+          "text": "Portfolio Helios holds equal amounts of:\n\nU.S., European, Japanese, and Emerging Markets ETFs\n\nGlobal REIT ETF\nGlobal Infrastructure ETF\n\nA major U.S. Energy stock\n\nA major U.S. Bank stock\n\nWhich statement most accurately describes this portfolio?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "Effectively diversified across different investment types and regions"},
+            {"id": "b", "text": "Primarily diversified across international stock markets"},
+            {"id": "c", "text": "Appears diverse but remains highly exposed to global stock market risk"},
+            {"id": "d", "text": "Well-diversified across different economic sectors"}
+          ],
+          "correctAnswer": "c",
+          "points": 10,
+          "concepts": ["false-diversification"],
+          "feedbackCorrect": "Correct. Despite including different regions and sectors, these investments tend to move together during market downturns. True diversification requires including truly uncorrelated assets like bonds or alternatives.",
+          "feedbackIncorrect": "Research on portfolio construction has found that investments across different stock categories (regions, sectors, and markets) often move together during significant market stress. Modern portfolio theory emphasizes including assets with different correlation patterns - such as high-quality bonds, commodities, or alternative investments - alongside various equity categories. This approach typically provides more protection during market downturns than diversification across equity categories alone."
+        },
+        {
+          "id": "q5-2",
+          "text": "A financial study compared three investment approaches over 5 years:\n\nRandom selection of 30 stocks from the S&P 500: +76% return\n\nCarefully researched individual stock selections: +58% return\n\nProfessional fund manager selections: +81% return\n\nWhich statement best reflects your view of these results?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "The random portfolio got lucky - skilled research will outperform over longer periods"},
+            {"id": "b", "text": "The results show that professional managers add significant value worth their fees"},
+            {"id": "c", "text": "This demonstrates why my own research approach needs complete revision"},
+            {"id": "d", "text": "Random diversification has advantages that can outperform even careful stock selection"}
+          ],
+          "correctAnswer": "d",
+          "points": 10,
+          "concepts": ["overconfidence-in-analysis"],
+          "feedbackCorrect": "Correct. Studies consistently show that randomly selected diversified portfolios often outperform careful stock picking due to broader diversification and absence of emotional biases. This balanced view acknowledges the statistical challenges of consistently beating the market.",
+          "feedbackIncorrect": "The belief that careful research consistently outperforms random selection reflects a perspective that many investors share. However, a substantial body of academic research has found surprising results: randomly selected diversified portfolios frequently outperform carefully researched selections. This occurs partly because random selection automatically creates broader diversification and eliminates the influence of behavioral factors. Many institutional investors have incorporated these findings by combining passive diversification with targeted active strategies."
+        },
+        {
+          "id": "q5-3",
+          "text": "Olivia's current allocation:\n\nLarge-cap value stocks: 70%\n\nSmall-cap growth stocks: 10%\n\nInternational stocks: 5%\n\nTreasury Bonds: 15%\n\nHer own analysis and multiple independent research reports suggest increasing international exposure to 20% and reducing large-cap value stocks exposure.\n\nHow would she likely respond?",
+          "type": "multiple-choice",
+          "options": [
+            {"id": "a", "text": "She'd keep her current allocation because it's performed well for her so far"},
+            {"id": "b", "text": "She'd wait a few more months to see if international markets improve first"},
+            {"id": "c", "text": "She'd adjust to the recommended allocation in one transaction this week"},
+            {"id": "d", "text": "She'd rebalance partially now and reassess the results quarterly"}
+          ],
+          "correctAnswer": ["c", "d"],
+          "points": 15,
+          "concepts": ["status-quo-bias"],
+          "feedbackCorrect": "Rational portfolio management involves implementing evidence-based changes when analysis supports them. This can be done either through immediate rebalancing or through a structured implementation plan with regular reassessment. The key distinction is acting on valid information rather than allowing comfort with familiar allocations to override sound financial analysis. Professional investors establish systematic review processes and predetermined criteria for when to adjust their portfolios.",
+          "feedbackIncorrect": "Maintaining current allocations despite new analysis suggesting beneficial changes illustrates a pattern that behavioral economists call status quo bias. Research shows this is a very common tendency - most investors naturally prefer their existing portfolios and require significantly more evidence to make changes than to maintain current positions. Awareness of this tendency has led many financial advisors to establish systematic review processes with predetermined adjustment criteria to help overcome this natural preference for the familiar."
+        }
+      ]
+    }
+  ],
+  "concepts": {
+    "loss-aversion": {
+      "name": "Loss Aversion",
+      "description": "The tendency to prefer avoiding losses over acquiring equivalent gains",
+      "importance": "Can lead to holding losing investments too long and selling winners too early"
+    },
+    "sunk-cost-fallacy": {
+      "name": "Sunk Cost Fallacy",
+      "description": "The tendency to continue investing in something because of previously invested resources",
+      "importance": "Can prevent investors from exiting losing positions when objectively warranted"
+    },
+    "regret-aversion": {
+      "name": "Regret Aversion",
+      "description": "Making decisions to avoid feeling regret about previous choices",
+      "importance": "Can lead to chasing past winners or avoiding previously disappointing investments"
+    },
+    "endowment-bias": {
+      "name": "Endowment Bias",
+      "description": "Valuing assets more highly simply because you own them",
+      "importance": "Can lead to holding concentrated positions in familiar companies without objective evaluation"
+    },
+    "confirmation-bias": {
+      "name": "Confirmation Bias",
+      "description": "Seeking information that supports existing views while ignoring contradictory evidence",
+      "importance": "Can prevent adjusting strategies when market conditions or fundamentals change"
+    },
+    "framing-bias": {
+      "name": "Framing Bias",
+      "description": "Making different decisions based on how information is presented",
+      "importance": "Can lead to inconsistent investment decisions based on presentation rather than substance"
+    },
+    "hindsight-bias": {
+      "name": "Hindsight Bias",
+      "description": "The tendency to perceive past events as having been predictable",
+      "importance": "Can lead to overconfidence in ability to predict future market movements"
+    },
+    "self-attribution-bias": {
+      "name": "Self-Attribution Bias",
+      "description": "Attributing successes to skill and failures to external factors",
+      "importance": "Makes it difficult to learn from investment mistakes and can lead to overconfidence"
+    },
+    "recency-bias": {
+      "name": "Recency Bias",
+      "description": "Giving greater importance to recent events when making decisions",
+      "importance": "Can lead to performance chasing and excessive risk-taking after bull markets"
+    },
+    "overconfidence-bias": {
+      "name": "Overconfidence Bias",
+      "description": "Overestimating one's knowledge, abilities, or the precision of one's forecasts",
+      "importance": "Can lead to excessive trading, inadequate diversification, and risk underestimation"
+    },
+    "herd-mentality": {
+      "name": "Herd Mentality",
+      "description": "Following what others are doing rather than making independent decisions",
+      "importance": "Often leads to buying at market peaks and selling at market bottoms"
+    },
+    "fomo": {
+      "name": "FOMO (Fear of Missing Out)",
+      "description": "Making investment decisions based on anxiety about missing potential gains",
+      "importance": "Can lead to speculative investing without proper research or risk assessment"
+    },
+    "availability-bias": {
+      "name": "Availability Bias",
+      "description": "Overestimating the likelihood of events based on how easily examples come to mind",
+      "importance": "Can lead to overreaction to dramatic market news or recent market events"
+    },
+    "mental-accounting": {
+      "name": "Mental Accounting",
+      "description": "Treating money differently based on its source or intended use",
+      "importance": "Can lead to inconsistent financial decisions across different accounts or money sources"
+    },
+    "anchoring-bias": {
+      "name": "Anchoring Bias",
+      "description": "Over-relying on the first piece of information encountered (the 'anchor')",
+      "importance": "Can lead to fixation on reference points like purchase prices or historical highs/lows"
+    },
+    "self-control-bias": {
+      "name": "Self-Control Bias",
+      "description": "The tendency to prioritize short-term satisfaction over long-term goals",
+      "importance": "Can lead to excessive spending, inadequate saving, and frequent portfolio adjustments"
+    },
+    "false-diversification": {
+      "name": "False Diversification",
+      "description": "The illusion of diversification when assets are actually highly correlated",
+      "importance": "Can leave portfolios vulnerable during market downturns despite appearing diversified"
+    },
+    "overconfidence-in-analysis": {
+      "name": "Overconfidence in Analysis",
+      "description": "Excessive confidence in one's ability to analyze investments and beat the market",
+      "importance": "Can lead to concentrated positions and underperformance relative to simple diversification"
+    },
+    "status-quo-bias": {
+      "name": "Status Quo Bias",
+      "description": "Preference for current positions and resistance to change",
+      "importance": "Can prevent necessary portfolio rebalancing and adapting to new market conditions"
+    }
+  },
+  "gamification": {
+    "badges": [
+      {
+        "id": "cognitive-master",
+        "name": "Cognitive Bias Master",
+        "description": "Correctly answered all questions in the Cognitive Biases module",
+        "requirements": {
+          "moduleId": "module-1",
+          "minimumScore": 90
+        }
+      },
+      {
+        "id": "information-processor",
+        "name": "Information Processing Expert",
+        "description": "Correctly answered all questions in the Information Processing Biases module",
+        "requirements": {
+          "moduleId": "module-2",
+          "minimumScore": 90
+        }
+      },
+      {
+        "id": "trend-analyzer",
+        "name": "Trend Analysis Expert",
+        "description": "Correctly answered all questions in the Prediction and Trend Biases module",
+        "requirements": {
+          "moduleId": "module-3",
+          "minimumScore": 90
+        }
+      },
+      {
+        "id": "money-manager",
+        "name": "Money Management Master",
+        "description": "Correctly answered all questions in the Money Management Biases module",
+        "requirements": {
+          "moduleId": "module-4",
+          "minimumScore": 90
+        }
+      },
+      {
+        "id": "portfolio-strategist",
+        "name": "Portfolio Management Strategist",
+        "description": "Correctly answered all questions in the Portfolio Management Biases module",
+        "requirements": {
+          "moduleId": "module-5",
+          "minimumScore": 90
+        }
+      },
+      {
+        "id": "behavioral-finance-expert",
+        "name": "Behavioral Finance Expert",
+        "description": "Mastered all behavioral finance concepts across all modules",
+        "requirements": {
+          "allModules": true,
+          "minimumScore": 85
+        }
+      }
+    ],
+    "levels": [
+      {
+        "id": "novice-investor",
+        "name": "Novice Investor",
+        "description": "Beginning to understand behavioral finance concepts",
+        "minimumScore": 0,
+        "maximumScore": 300
+      },
+      {
+        "id": "intermediate-investor",
+        "name": "Intermediate Investor",
+        "description": "Developing awareness of cognitive biases in investing",
+        "minimumScore": 301,
+        "maximumScore": 700
+      },
+      {
+        "id": "advanced-investor",
+        "name": "Advanced Investor",
+        "description": "Consistently applying behavioral finance principles",
+        "minimumScore": 701,
+        "maximumScore": 1000
+      },
+      {
+        "id": "investment-master",
+        "name": "Investment Master",
+        "description": "Expert at recognizing and overcoming behavioral biases",
+        "minimumScore": 1001,
+        "maximumScore": null
+      }
+    ]
+  }
+}

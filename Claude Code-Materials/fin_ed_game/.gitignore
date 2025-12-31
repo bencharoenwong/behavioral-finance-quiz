@@ -1,0 +1,19 @@
+# Ignore everything by default
+/*
+!/fin_ed_game/
+
+# But track these specific files in fin_ed_game
+!.gitignore
+!/fin_ed_game/*.html
+!/fin_ed_game/*.js
+!/fin_ed_game/*.css
+!/fin_ed_game/*.json
+!/fin_ed_game/*.md
+
+# Ignore node_modules and common files
+node_modules/
+.DS_Store
+*.log
+.env
+.vscode/
+.idea/
