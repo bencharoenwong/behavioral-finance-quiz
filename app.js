@@ -699,6 +699,14 @@ const app = {
         const isMultipleChoice = Array.isArray(question.correctAnswer);
         const inputType = isMultipleChoice ? 'checkbox' : 'radio';
 
+        // Add instruction text
+        const instructionDiv = document.createElement('div');
+        instructionDiv.className = 'answer-instruction';
+        instructionDiv.innerHTML = isMultipleChoice
+            ? '☑️ <strong>Select all that apply</strong>'
+            : '⭕ <strong>Select one answer</strong>';
+        container.appendChild(instructionDiv);
+
         question.options.forEach(option => {
             const optionDiv = document.createElement('div');
             optionDiv.className = 'option';

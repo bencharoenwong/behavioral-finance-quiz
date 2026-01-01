@@ -459,6 +459,16 @@ main {
     margin: 25px 0;
 }
 
+.answer-instruction {
+    background: #e8f0ff;
+    border-left: 4px solid #667eea;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 0.95em;
+}
+
 .option {
     background: white;
     border: 2px solid #e0e0e0;
