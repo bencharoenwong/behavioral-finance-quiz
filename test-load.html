@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test JSON Load</title>
+</head>
+<body>
+    <h1>Testing JSON Load</h1>
+    <div id="result"></div>
+    <div id="error" style="color: red;"></div>
+
+    <script>
+        async function testLoad() {
+            try {
+                console.log('Attempting to fetch...');
+                const response = await fetch('financial_education_game.json');
+                console.log('Response:', response);
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                console.log('Data loaded successfully:', data);
+                document.getElementById('result').innerHTML = `
+                    <p>✅ Success!</p>
+                    <p>Quiz ID: ${data.quizId}</p>
+                    <p>Modules: ${data.modules.length}</p>
+                `;
+            } catch (error) {
+                console.error('Error loading quiz data:', error);
+                document.getElementById('error').innerHTML = `
+                    <p>❌ Error: ${error.message}</p>
+                    <p>Stack: ${error.stack}</p>
+                `;
+            }
+        }
+
+        testLoad();
+    </script>
+</body>
+</html>
