@@ -1,6 +1,7 @@
 # Ignore everything by default
 /*
 !/fin_ed_game/
+!/Claude\ Code-Materials/
 
 # But track these specific files in fin_ed_game
 !.gitignore
@@ -10,6 +11,12 @@
 !/fin_ed_game/*.json
 !/fin_ed_game/*.md
 
+# Track Claude Code-Materials but exclude large files
+!/Claude\ Code-Materials/**/*.py
+!/Claude\ Code-Materials/**/*.md
+!/Claude\ Code-Materials/**/CLAUDE.md
+!/Claude\ Code-Materials/anansi_macro_loadings/
+
 # Ignore node_modules and common files
 node_modules/
 .DS_Store
@@ -17,3 +24,12 @@ node_modules/
 .env
 .vscode/
 .idea/
+
+# Ignore large data files in anansi_macro_loadings
+*.parquet
+*.pkl
+*.csv
+*.dta
+*.xlsx
+*.db
+.DS_Store
