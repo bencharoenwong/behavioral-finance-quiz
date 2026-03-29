@@ -10,8 +10,12 @@
     <div class="container">
         <!-- Header -->
         <header class="header">
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                <span class="icon-sun">☀️</span>
+                <span class="icon-moon">🌙</span>
+            </button>
             <h1>Behavioral Finance Quiz</h1>
-            <p class="subtitle">Build your investor brain daily 🧠</p>
+            <p class="subtitle">Build your investor brain daily</p>
 
             <!-- Streak Display -->
             <div id="streakDisplay" class="streak-display">
@@ -182,6 +186,26 @@
     <!-- Notification Container -->
     <div id="notificationContainer" class="notification-container"></div>
 
+    <script>
+        // Theme toggle functionality with localStorage persistence
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+                document.body.classList.add('dark');
+            }
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            const isDark = document.body.classList.contains('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        }
+
+        // Initialize theme on page load
+        initTheme();
+    </script>
     <script src="app.js"></script>
 </body>
 </html>
